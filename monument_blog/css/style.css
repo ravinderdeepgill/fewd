@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	font-family: "Raleway", sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	color: #44545E;
+	margin: 0px;
+	letter-spacing: 0.02em;
+	-webkit-font-smoothing: antialiased;
+	/*text-align: center; */
+}
+
+a:hover {
+	color: #59B776;
+}
+nav {
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0px;
+}
+
+nav a {
+	font-size: 16px;
+	color: #7B98AA;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0px 55px;
+
+}
+
+h1 {
+	text-align: center;
+	padding: 110px 0px;
+	font-weight: 600;
+}
+
+header {
+	background-image: url(../images/blog_header_bg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+header a {
+	font-size: 37px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	letter-spacing: 10px;
+
+	/*margin: 20px 0px 20px 0px;*/
+}
+
+h2 {
+	font-size: 23px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+}
+
+h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 10px 0px;
+}
+
+article p {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	padding: 10px 0px;
+}
+
+section {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+article {
+	width: 68%;
+}
+
+aside {
+	width: 26%;
+}
+
+aside p {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	margin: 20px 0px;
+}
+
+
+
+.about {
+	margin-top: 60px;
+}
+
+aside img {
+	margin: 30px 0px;
+}
+
+li {
+	margin: 15px 0px;
+}
+
+aside li a {
+	color: #7B98AA;;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 10px 0px;
+}
+
+footer {
+text-align: center;
+background-color: #CDF3F6;
+padding: 24px 5px;
+margin-top: 20px;
+/*letter-spacing: 2px;*/
+/*word-spacing: 20px;*/
+}
+
+footer a {
+	color: #44545E;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 400;
+	display: inline-block;
+	/*margin-bottom: 20px;*/
+	margin: 12px 0px;
+	/*padding-bottom: 60px;*/
+	/*padding: 15px 0px;*/
+	/*border-bottom: 1px solid #44545E;*/
+}
+
+#my-name {
+	font-family: "Lato", sans-serif;
+	text-transform: lowercase;
+	margin: 0px;
+	padding: 0px;
+	font-weight: 400;
+}
+
+#my-name a {
+	text-transform: capitalize;
+	word-spacing: 0px;
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+
+#email-submit {
+	text-align: center;
+	text-transform: uppercase;
+}
+hr {
+	border-bottom: 0.5px solid #44545E;
+}
